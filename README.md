@@ -15,3 +15,7 @@ test_files: test_file1.pdf test_file2.pdf
 
 1. Add tested files to test_files directory, if not there yet (test_file1.pdf and test_file2.pdf)
 2. Run test_pdf_comparison.py or run pytest -v in a root project directory
+
+#task3
+
+Run task3.py
