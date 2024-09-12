@@ -21,7 +21,7 @@ def test_pdf_structure(reference_info, test_file):
     comparison_report = compare_structure(reference_info, test_info)
 
     # Assert text structure
-    assert comparison_report["text_comparison"] == "Test structure passed.", comparison_report["text_comparison"]
+    assert comparison_report["text_comparison"] == "Text structure passed.", comparison_report["text_comparison"]
 
     # Assert barcodes
     assert comparison_report["barcode_comparison"] == "Number of barcodes passed.", comparison_report["barcode_comparison"]
