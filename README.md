@@ -13,5 +13,5 @@ reference_file: test_task.pdf
 
 test_files: test_file1.pdf test_file2.pdf
 
-1. Add tested files to test_files directory
+1. Add tested files to test_files directory (test_file1.pdf and test_file2.pdf)
 2. Run test_pdf_comparison.py
