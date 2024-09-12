@@ -21,10 +21,10 @@ def test_pdf_structure(reference_info, test_file):
     comparison_report = compare_structure(reference_info, test_info)
 
     # Assert text structure
-    assert comparison_report["text_comparison"] == "Текстовая структура совпадает.", comparison_report["text_comparison"]
+    assert comparison_report["text_comparison"] == "Test structure passed.", comparison_report["text_comparison"]
 
     # Assert barcodes
-    assert comparison_report["barcode_comparison"] == "Количество штрих-кодов совпадает.", comparison_report["barcode_comparison"]
+    assert comparison_report["barcode_comparison"] == "Number of barcodes passed.", comparison_report["barcode_comparison"]
 
     # Assert metadata
-    assert comparison_report["metadata_comparison"] == "Метаданные совпадают.", comparison_report["metadata_comparison"]
+    assert comparison_report["metadata_comparison"] == "Metadata passed.", comparison_report["metadata_comparison"]
