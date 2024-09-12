@@ -4,14 +4,9 @@
 
 # task2
 The pytest structure:
-
-project:
-
 test_pdf_comparison.py
-
 reference_file: test_task.pdf
-
-test_files: test_file1.pdf test_file2.pdf
+test_files:
 
 1. Add tested files to test_files directory, if not there yet.
 test_file1.pdf and test_file2.pdf are the same as test_task.pdf. Add test files for negative scenario:
