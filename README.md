@@ -4,8 +4,11 @@
 
 # task2
 **The pytest structure**
+
 test_pdf_comparison.py
+
 reference_file/test_task.pdf
+
 test_files/
 
 1. Add tested files to test_files directory, if not there yet.
