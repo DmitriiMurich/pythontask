@@ -16,7 +16,7 @@ test_files/
 
 - Add test files for **negative scenario** test_file_with_missing_text.pdf, test_file_with_wrong_barcode.pdf, test_file_with_wrong_metadata.pdf, test_file_with_text_and_barcode_mismatch.pdf, test_minimal_valid_file.pdf, test_file_missing_barcodes.pdf, test_file_missing_all_key_phrases.pdf, test_invalid_format.txt, empty.pdf, invalid_file.docx, test_partial_data.pdf, large_test_file.pdf, test_file_multiple_barcodes.pdf, test_file_special_characters.pdf, corrupted_file.pdf
 
-2. Run **test_pdf_comparison.py** or run **pytest -v** in a root project directory
+2. Run **task2.py** or run **pytest -v** in a root project directory
 
 # task3
 
