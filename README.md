@@ -5,11 +5,11 @@
 #task2
 The pytest structure:
 
-project/
+project
     test_pdf_comparison.py
-    reference_file/
+    reference_file
         test_task.pdf
-    test_files/
+    test_files
         test_file1.pdf
         test_file2.pdf
 
